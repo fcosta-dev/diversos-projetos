@@ -1,3 +1,4 @@
+// Lê os Estados na API do IBGE e monta o Select com todos os Estados
 const selectStateElement = document.getElementById('states')
 const fetchApi = () => {
   fetch('https://servicodados.ibge.gov.br/api/v1/localidades/estados')
